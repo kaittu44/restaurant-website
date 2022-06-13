@@ -1,0 +1,20 @@
+html{
+  background: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center fixed ;
+  background-position: center;
+  background-size: cover;
+}
+.first{
+  font-size: 100px;
+  font-family: monospace;
+  position: absolute;
+  left: 600px;
+  color: #51557E;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+from {color:#00ADB5 ;}
+to {color:#F38181 ;}
+}
