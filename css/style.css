@@ -7,7 +7,7 @@ html{
   font-size: 100px;
   font-family: monospace;
   position: absolute;
-  left: 300px;
+  left: 100px;
   color: #51557E;
   animation-name: example;
   animation-duration: 4s;
