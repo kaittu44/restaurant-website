@@ -6,8 +6,8 @@ html{
 .first{
   font-size: 100px;
   font-family: monospace;
-  position: absolute;
-  left: 100px;
+  position:relative;
+  left: 300px;
   color: #51557E;
   animation-name: example;
   animation-duration: 4s;
@@ -17,4 +17,44 @@ html{
 @keyframes example {
 from {color:#00ADB5 ;}
 to {color:#F38181 ;}
+}
+.second{
+  position:relative;
+  top: 2px;
+  left: 350px;
+  color: orange;
+}
+
+.form{
+  position: relative;
+  top: 100px;
+  left: 500px;
+  color: #6CC4A1;
+}
+.submit{
+  position:relative;
+  left: 60px;
+}
+.login{
+  position:relative;
+  left: 60px;
+}
+.password{
+  position:relative;
+  left: 60px;
+}
+.offer{
+  font-size: 100px;
+  font-family:sans-serif;
+  position:relative;
+  left: 200px;
+  color: #51557E;
+  animation-name: blink;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+from {color:yellow ;}
+to {color:paleturquoise ;}
 }
